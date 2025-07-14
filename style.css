@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.Profile-card {
+    display: flex;
+    font-family: "Roboto","sans-serif" ,"serif";
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    border: 1px solid #ddd;
+
+
+}
+.Profile-image{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.Profile-info{
+
+}
+
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Profile-card {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Left side – image */
+.Profile-image {
+  flex: 1;
+  background-color: #f5f5f5;
+}
+
+.Profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right side – content */
+.Profile-info {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.Profile-info footer{
+  margin-top: auto;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Profile-text{
+  margin-top: auto;
+  align-self: center;
+  /* display: flex; */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Profile-text p{
+    text-align: justify;
+}
+
+.Profile-info h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.Profile-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
